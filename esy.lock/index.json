@@ -1,0 +1,37 @@
+{
+  "checksum": "29bc948da513f091258c135c4ce3469f",
+  "root": "tpl@link-dev:./package.json",
+  "node": {
+    "tpl@link-dev:./package.json": {
+      "id": "tpl@link-dev:./package.json",
+      "name": "tpl",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "test-warmup-lib@github:prometheansacrifice/test-warmup-lib#df22b58212c43a4675451219af52ef2e26c0db5a@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "test-warmup-lib@github:prometheansacrifice/test-warmup-lib#df22b58212c43a4675451219af52ef2e26c0db5a@d41d8cd9": {
+      "id":
+        "test-warmup-lib@github:prometheansacrifice/test-warmup-lib#df22b58212c43a4675451219af52ef2e26c0db5a@d41d8cd9",
+      "name": "test-warmup-lib",
+      "version":
+        "github:prometheansacrifice/test-warmup-lib#df22b58212c43a4675451219af52ef2e26c0db5a",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/test-warmup-lib#df22b58212c43a4675451219af52ef2e26c0db5a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

@@ -11,13 +11,10 @@
     "build": "make",
     "install": "make install"
   },
-  "pesy": {
-    "azure-project": "esy-dev/esy"
-  },
   "scripts": {
     "start": "esy x hello.exe"
   },
   "dependencies": {
-    "test-warmup-lib": "prometheansacrifice/test-warmup-lib"
+    "test-warmup-lib": "prometheansacrifice/test-warmup-lib#df22b5821"
   }
 }

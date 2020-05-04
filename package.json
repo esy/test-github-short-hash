@@ -1,7 +1,7 @@
 {
   "name": "tpl",
   "version": "0.1.0",
-  "description": "Template to test import-dependencies",
+  "description": "To test support for git short hashes",
   "esy": {
     "buildEnv": {
       "CFLAGS": "-I#{test-warmup-lib.install / 'include' }",

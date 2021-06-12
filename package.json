@@ -15,6 +15,6 @@
     "start": "esy x hello.exe"
   },
   "dependencies": {
-    "test-warmup-lib": "prometheansacrifice/test-warmup-lib#df22b5821"
+    "test-warmup-lib": "ManasJayanth/test-warmup-lib#454ae6e"
   }
 }

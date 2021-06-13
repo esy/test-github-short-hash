@@ -4,6 +4,7 @@
   "description": "To test support for git short hashes",
   "esy": {
     "buildEnv": {
+      "PREFIX": "#{os == 'windows' ? 'x86_64-W64-mingw32-': ''}",
       "CFLAGS": "-I#{test-warmup-lib.install / 'include' }",
       "LDFLAGS": "-L#{test-warmup-lib.lib} -ltest-warmup-lib"
     },
@@ -15,6 +16,6 @@
     "start": "esy x hello.exe"
   },
   "dependencies": {
-    "test-warmup-lib": "ManasJayanth/test-warmup-lib#454ae6e"
+    "test-warmup-lib": "ManasJayanth/test-warmup-lib#17171299"
   }
 }
